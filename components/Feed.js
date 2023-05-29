@@ -32,7 +32,7 @@ const Feed = () => {
       <div className="sticky top-0 flex md:hidden justify-between font-medium text-[20px] px-4 py-2 bg-[#262020] z-50 -mt-2 shadow-md">
         <div className="flex">
           <Image src={octopus} className="h-10 w-10" alt="logo" />
-          <span className="inline pt-2 pl-3">OctoWorld</span>
+          <span className="inline pt-2 pl-3 font-serif">OctoWorld</span>
         </div>
         <button onClick={() => signOut("google")}>
           <BiLogOutCircle className="pt-2 h-9 w-9" />
