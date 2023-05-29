@@ -6,8 +6,8 @@ import { signIn } from "next-auth/react";
 
 const Login = () => {
   return (
-    <div className="grid grid-cols-2">
-      <div className="bg-[#b21860] h-screen grid place-items-center">
+    <div className="grid grid-rows-2 md:grid-cols-2">
+      <div className="bg-[#b21860] h-[70%] md:h-screen grid place-items-center">
         <Image src={octopus} className="h-80 w-80" alt="logo"/>
       </div>
 
