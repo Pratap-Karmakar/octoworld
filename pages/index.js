@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import { signOut, useSession } from 'next-auth/react'
+import { useSession } from 'next-auth/react'
 import Login from '@/components/Login'
 import Sidebar from '@/components/Sidebar'
 import Feed from '@/components/Feed'
