@@ -1,4 +1,4 @@
-import React from "react";
+                                            import React from "react";
 import octopus from "../public/octopus.png";
 import Image from "next/image";
 import { FcGoogle } from "react-icons/fc";
