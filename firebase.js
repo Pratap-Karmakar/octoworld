@@ -7,13 +7,14 @@ import {getStorage} from 'firebase/storage'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC85MUlo4Xm1kAA0DgY8CyYS-Q_Tll26VI",
-  authDomain: "octoworldmain.firebaseapp.com",
-  projectId: "octoworldmain",
-  storageBucket: "octoworldmain.appspot.com",
-  messagingSenderId: "578038323905",
-  appId: "1:578038323905:web:0c8f4b5eeafa4336f65240"
+  apiKey: "AIzaSyA-zINyHBinP7l9uGdbEFZOP_MHM2xHdug",
+  authDomain: "octoworld-96ade.firebaseapp.com",
+  projectId: "octoworld-96ade",
+  storageBucket: "octoworld-96ade.appspot.com",
+  messagingSenderId: "527261013437",
+  appId: "1:527261013437:web:1b5d9a74b482f1f1c96ed4"
 };
+
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const db = getFirestore();
